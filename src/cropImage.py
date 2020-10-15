@@ -1,9 +1,9 @@
 from PIL import Image
 
-# mengambil gambar
+# pick image
 origin = Image.open("./peppers.tif")
 
-# menampilkan gambar
+# show image
 origin.show() 
 
 # get orginal dimensions

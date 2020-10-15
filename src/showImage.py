@@ -1,7 +1,7 @@
 from PIL import Image
 
-#mengambil gambar
+# pick image
 citra = Image.open("./waterfall.bmp")
 
-#menampilkan gambar
+# show image
 citra.show() 
