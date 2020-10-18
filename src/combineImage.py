@@ -37,4 +37,5 @@ backgroundCopy.paste(imgCr12,(int((width + mLeft + mRight)/2),mRight))
 backgroundCopy.paste(imgCr21,(mLeft,int((height + mTop + mBottom)/2)))
 backgroundCopy.paste(imgCr22,(int((width + mLeft + mRight)/2),int((height + mTop + mBottom)/2)))
 backgroundCopy.show()
+backgroundCopy.save('./newImageFromPaste.jpg')
 
